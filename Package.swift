@@ -19,6 +19,8 @@ let package = Package(
         .plugin(name: "SwiftPackageListPlugin", targets: ["SwiftPackageListPlugin"]),
         .library(name: "SwiftPackageList", targets: ["SwiftPackageList"]),
         .library(name: "SwiftPackageListUI", targets: ["SwiftPackageListUI"]),
+        .library(name: "SwiftPackageListCore", targets: ["SwiftPackageListCore"]),
+
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.0.0"),

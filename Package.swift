@@ -40,7 +40,7 @@ let package = Package(
         ),
         .target(
             name: "SwiftPackageListCore",
-            dependencies: [.target(name: "SwiftPackageList")]
+            dependencies: [.target(name: "SwiftPackageListCore")]
         ),
         .target(
             name: "SwiftPackageList",
